@@ -1,0 +1,15 @@
+a=20
+b="messi"
+c=63.08
+d=['kev','ney']
+e=('cr7','lewa')
+f={'cena','harry'}
+g={'roll':10,'name':'ffer','age':50}
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(True))
