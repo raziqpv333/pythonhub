@@ -1,0 +1,7 @@
+print(10==10 and "anu"=="anu")
+print(10==9 and "anu"=="anu")
+print(10==10 or "anu"=="anu")
+print(10==9 or "anu"=="anu")
+print(10==9 or "anu"=="sanu")
+print(not(10==10))
+print(not(10==11))
