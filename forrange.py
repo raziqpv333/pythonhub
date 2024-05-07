@@ -41,5 +41,21 @@ n=0
 for i in  range(k,e):
     if i%2==1:
         print(i)
-        n-=i
-print("sum of n numbers is=",n)        
+        n+=i
+print("sum of n numbers is=",n)   
+
+l=int(input("enter a number"))
+for i in range(1,11):
+        print(i,"*",l,"=",i*l)
+
+
+o=int(input("enter a number"))
+for i in range(3,21):
+    print(i,"*",o,"=",i*o)
+
+t=int(input('enter a starting number'))
+w=int(input("enter a ending number"))
+n=int(input("enter a value"))
+for i in range(t,w+1):
+    print(i,"*",n,"=",i*n)
+    
