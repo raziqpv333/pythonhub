@@ -48,17 +48,15 @@ for i in range(3):
 for i in range(3):
     x=i
     for d in range(3):
-
-         
         print(x,end=" ") 
         x+=1
     print()
 
+e=9
 for i in range(3):
-    e=i
-    for s in range(3):
+    for j in range(3):
         print(e,end=" ")
-        e-=9
+        e-=1
     print()    
 
 
