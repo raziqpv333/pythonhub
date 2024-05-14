@@ -1,0 +1,9 @@
+a=[10,20,30,"red",10.2]
+a.append("hello")
+print(a)
+a.append([50,60,70,80,90])
+print(a)
+a.extend([100,101,102])
+print(a)
+a.insert(4,"orange")
+print(a)
