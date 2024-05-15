@@ -1,4 +1,4 @@
- print("WELCOME")
+print("WELCOME")
 print("name is king")
 print("age is 27")
 print("course is python")
