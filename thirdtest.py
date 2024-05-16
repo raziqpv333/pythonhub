@@ -8,11 +8,17 @@ print(l)
 
 l=[10,20,30,40,50]
 p=int(input("enter your number"))
-print(p)
-print(l.count(10))
-
-if 10:
+if p in l:
     print("available")
 else:
-    ("not availale")
+    print("not available")
    
+
+
+
+l=[10,20,10,1,2,1,2,3]
+n=[]
+for item in l:
+    if item not in n:
+        n.append(item)
+print(n)

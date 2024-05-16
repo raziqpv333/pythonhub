@@ -7,4 +7,5 @@ for char in word:
     a=char+a
 print(a)
 
-
+i="welcome"
+while
