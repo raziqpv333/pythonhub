@@ -1,4 +1,4 @@
-'''class sample:
+class sample:
     def display(self):
         print("class sample")
 class sam(sample):
@@ -16,7 +16,7 @@ class sam(sample):
         super().display()
         print("class sam")
 object=sam()
-object.display()    '''    
+object.display()    
 
 
 class sample:
