@@ -83,3 +83,4 @@ con=sqlite3.connect("student.db")
 s=con.execute("select subject,count(mark) from marksheet")
 for i in s:
     print(i)
+    
