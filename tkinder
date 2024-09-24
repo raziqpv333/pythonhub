@@ -1,0 +1,33 @@
+import tkinter
+
+app=tkinter.Tk()
+app.title('main heading')
+app.minsize(500,500)
+app.maxsize(600,600)
+app.configure(bg="light blue")
+
+def sample():
+    l2.config(text=e1.get()+'\n'+e2.get()+e3.get())
+
+
+l1=tkinter.Label(app,text="welcome all")
+l1.pack()
+l3=tkinter.Label(app,text="name")
+l3.pack()
+e1=tkinter.Entry(app)
+e1.pack()
+l4=tkinter.Label(app,text="age")
+l4.pack()
+e2=tkinter.Entry(app)
+e2.pack()
+l5=tkinter.Label(app,text="place")
+l5.pack()
+e3=tkinter.Entry(app)
+e3.pack()
+b1=tkinter.Button(app,text="save",fg='light green',activebackground="yellow",padx=11,pady=11,command=sample)
+b1.pack()
+l2=tkinter.Label(app)
+l2.pack()
+
+
+app.mainloop()
